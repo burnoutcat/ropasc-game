@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="gamewindow">
+
+		<button class="btn_about" onclick="document.getElementById('aboutwindow').style.display='block'"><img src="image/about.svg" style="width: 30%;"></button>
+
+
+
+		<div class="navigation">
+			<img class="logo" src="image/logo.svg" ><br>
+
+			<button class="btn_challenge" style="margin-top: 10%;" onclick="window.location.href='challengemode.html';">Challenge Mode</button><br>
+			<button class="btn_unlimited" style="background-color:#767677; " onclick="window.location.href='unlimitedmode.html';">Unlimited Mode</button>
+		</div>
+
+		<div id="aboutwindow" style="text-align: center;">
+
+			<div class="abouttext" style="display: flex" >
+							<div style="flex: 2;"><img src="image/rule.svg" style="margin: 2em 1em 1em 2em;"></div>
+							<div class="helptext_1"style="flex: 3; margin-top: 1em">
+								<p style="margin-bottom: 0.5em;"><b>Challenge Mode</b></p>
+								<p style="font-size: 0.9em; margin-top: 0.2em; margin-bottom: 1.5em;">Complete the challenge <br>and unlock special game mode after <br>winning 10 rounds in one game. </p>
+								<p style="margin-bottom: 0.5em;"><b>Unlimited Mode</b></p>
+								<p style="font-size: 0.9em;margin-top: 0.2em;">Play classic rock paper scissors <br> with computer, no limit.   </b></p>
+							</div>
+						</div>
+
+			<button class="pausebutton" onclick="document.getElementById('aboutwindow').style.display='none'">CLOSE</button>
+
+		</div>
+
+
+
+	</div>
+
+
+
+</body>
+</html>

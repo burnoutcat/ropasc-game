@@ -1,0 +1,203 @@
+html{
+	background-color: #333; 
+	font-family: "Oswald", "Helvetica", sans-serif;
+}
+
+.gamemodetext{
+	margin: 5px 0px; 
+}
+.gamewindow{
+	max-width: 1000px;
+	min-width: 800px; 
+	min-height: 400px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: rgb(240,230,230);
+	border-radius: 10px;
+	position: relative;
+
+}
+
+.lowercolums{
+	background-color: rgb(230,230,240);
+	border-radius: 0px 0px 10px 10px;
+}
+.handsimage{
+ 	width: 100%;
+ 	height: auto; 
+ 	vertical-align: text-bottom;
+ 	pointer-events: none;
+
+}
+.gamemode{
+	font-size: 2em;
+	background-color: #31414c;
+	color: rgb(240,240,240);
+	font-weight: 300; 
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 0px;
+}
+
+.btn_s,.btn_r,.btn_p {
+	background-color: transparent;
+	border: none; 
+	width: 25%; 
+}
+
+.button {
+	max-width: 20%;
+	height: auto;
+	margin-top: 50%; 
+}
+
+.logo{
+	position: relative;
+    top: 40%;
+    width: 70%;
+    left: 20%;
+}
+
+.about{
+	text-align: center;
+}
+
+.hands{
+	text-align: center;
+}
+
+.popoutbutton{
+	text-align: center;
+}
+
+.choicewindow{
+	text-align: center; 
+	height: 300px; 
+}
+
+
+.icon {
+	height: 75%;
+	padding: 10% 0; 
+
+}
+
+#popoutwindow {
+	display: none;
+	position: absolute;
+	background-color: #e6dbdb;
+	height: 40%;
+	width: 30%; 
+	top: 25%;
+	left:35%; 
+	border-radius: 10px; 
+
+}
+
+#aboutwindow{
+	display: none;
+	position: absolute;
+	background-color: #e6dbdb;
+	height: 60%;
+	width: 60%; 
+	top: 19%;
+	left:20%; 
+	border-radius: 10px; 
+}
+
+#winwindow{
+	display: none;
+	position: absolute;
+	background-color: #e6dbdb;
+	height: 65%;
+	width: 60%; 
+	top: 19%;
+	left:20%; 
+	border-radius: 10px; 
+}
+/*https://stackoverflow.com/questions/2941189
+/how-to-overlay-one-div-over-another-div*/
+
+.pausebutton{
+	background-color: #31414c; 
+	color: white;
+	padding: 11px 10px; 
+	border: none;
+	border-radius: 14px; 
+	width: 45%; 
+	margin: 20px 0 0 0;  
+	font: inherit;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.btn_more{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+
+.btn_about{
+	background-color: transparent;
+    border: none;
+    position: relative;
+    top: 50%;
+    right: 20%;
+}
+
+.scoretab{
+	background-color: #fff; 
+	width: 45%; 
+	position: relative;
+	left: 10%; 
+	top:30%;
+	border-radius: 0px 0px 10px 10px; 
+
+}
+
+.scoredisplay{
+	height: 80px;
+}
+
+.scoretitle{
+	background-color: #31414c;
+	color: white; 
+	font-size: 1em; 
+	font-weight: 300; 
+	border-radius: 10px 10px 0px 0px; 
+	padding-left: 1em; 
+	margin-bottom: 0em;
+
+}
+
+.scoreoutput{
+	font-size: 3em;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 0.1em; 
+}
+
+.result{
+	position: relative;
+    left: 19%;
+    top: 30%;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.wintext{
+	margin-top: 1em;
+}
+.wintext_1{
+	text-transform: uppercase;
+	margin-top: 1.2em;
+	font-size: 1.3em;
+}
+
+.helptext_1{
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 1em;
+	
+}

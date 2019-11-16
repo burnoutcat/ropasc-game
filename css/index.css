@@ -1,0 +1,89 @@
+html{
+	background-color: #333; 
+	font-family: "Oswald", "Helvetica", sans-serif;
+}
+
+.gamewindow{
+	width: 1000px;
+	height: 531px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: rgb(245, 233, 233);
+	border-radius: 10px;
+
+}
+
+.navigation{
+	text-align: center;
+	margin-top: 1%; 
+
+}
+.btn_challenge,.btn_unlimited{
+	background-color: #495967; 
+	color: white;
+	padding: 11px 10px; 
+	border: none;
+	border-radius: 14px; 
+	width: 30%; 
+	text-transform: uppercase;
+	font: inherit;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 3%;
+}
+
+.logo{
+	width: 30%;
+}
+
+.btn_about{
+	background-color: transparent;
+    border: none;
+    position: relative;
+    left:85%;
+    margin-top: 1%;
+}
+
+#aboutwindow{
+	display: none;
+    position: absolute;
+    background-color: #e6dbdb;
+    height: 26em;
+    width: 45em;
+    top: 10%;
+    left: 27%;
+    border-radius: 10px;
+}
+
+.pausebutton{
+    background-color: #4e669a;
+    color: white;
+    padding: 11px 10px;
+    border: none;
+    border-radius: 14px;
+    width: 45%;
+    margin: 7.5% 0 0 0;
+    font: inherit;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wintext{
+	margin-top: 1em;
+}
+.wintext_1{
+	text-transform: uppercase;
+	margin-top: 1.2em;
+	font-size: 1.3em;
+}
+
+.helptext_1{
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 1em;
+	
+}
+
+.abouttext{
+	max-height: 40em; 
+}

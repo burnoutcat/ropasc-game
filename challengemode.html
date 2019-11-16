@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge Mode</title>
+
+	<link rel="stylesheet" type="text/css" href="css/challengemode.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap" rel="stylesheet">
+
+	<script src="js/challengemode.js"></script>
+	
+</head>
+<body>
+
+	<div class="gamewindow">
+
+		<div class="gamemode" style="text-align: center;">
+			<p class="gamemodetext">CHALLENGE MODE</p>
+		</div>
+
+		<div class="centercolums" style="display: flex;">
+			<div class="scorewindow" style="flex: 1">
+				<div class="scoretab">
+					<h2 class="scoretitle">SCORE</h2>
+					<div class="scoredisplay" style="display: flex;">
+						<p class="scoreoutput" style="flex: 1;"></p>
+						<p class="targetscore" style="flex:1">/10</h4>
+					</div>
+				</div>
+			<div class="result"></div>
+			</div>
+
+
+			<div class="choicewindow" style="display:flex; flex: 2">
+				<div class="userchoice" style="flex: 1"></div>
+				<div class="robotchoice" style="flex:1"></div>
+			</div>
+
+				<div class="logowindow" style="flex: 1">
+				<img class="logo" src="image/logo.svg">
+
+			</div>
+		</div>
+
+
+		<div class="lowercolums" style="display: flex;">
+			<div class="about" style="flex: 1" >
+				<button class="btn_about" onclick="document.getElementById('aboutwindow').style.display='block'" style="width: 30%;"> <img src="image/about.svg" >
+				</button>
+			</div>
+			<div class="hands" style="flex: 2">
+				<button value="0" class="btn_r"><img class="handsimage" src="image/RockRegCard.svg"></button>
+				<button value="1" class="btn_p"><img class="handsimage" src="image/PaperRegCard.svg"></button>
+				<button value="2" class="btn_s"><img class="handsimage" src="image/ScissorsRegCard.svg"></button>
+			</div>
+			<div class="popoutbutton" style="flex: 1" >
+				<button class="btn_more" onclick="document.getElementById('popoutwindow').style.display='block'" style="width: 30%;"><img src="image/		menu.svg"></button>
+					
+					<div id="popoutwindow">
+
+						<p style="font-size: 18px; font-weight: 400; margin-bottom: 0">PAUSE</p>
+
+						<button class="pausebutton" onclick="document.getElementById('popoutwindow').style.display='none'">RESUME</button><br>
+						<!--How to make an in-page pop out box. Source: https://www.youtube.com/watch?v=yafNKsqZ4cA -->
+						<button class="pausebutton" onclick="window.location.href='index.html'">MAIN MENU</button>
+					
+					</div>
+
+					<div id="aboutwindow">
+						<div class="abouttext" style="display: flex">
+							<div style="flex: 2;"><img src="image/rule.svg" style="margin: 1em 1em 1em 1em;"></div>
+							<div class="helptext_1"style="flex: 3">
+								<p><b>Challenge Mode</b></p>
+								<p style="font-size: 0.9em;">Play rock paper scissors with <br>computer. Complete the challenge <br>and unlock special game mode after <br><b>winning 10 rounds in one game. </b></p>
+							</div>
+						</div>
+						<button class="pausebutton" onclick="document.getElementById('aboutwindow').style.display='none'">CLOSE</button><br>
+					</div>
+
+					<div id="winwindow">
+
+						<div class="wintext" style="display: flex;">
+							<div style="flex: 2;"><img src="image/goldrock.svg" style="margin-left: 3em; margin-top: 1em;"></div>
+							<div class="wintext_1"style="flex: 3">
+								<p><b>congratulations</b></p>
+								<p>Gold Mode Unlocked</p>
+							</div>
+
+						</div>
+
+						<button class="pausebutton" onclick="window.location.href='goldmenu.html'">CONTINUE</button><br>
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
